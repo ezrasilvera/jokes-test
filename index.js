@@ -1,7 +1,7 @@
 function randomFact() {
       // We call the Web Service via AJAX
       var xmlhttp = new XMLHttpRequest();
-      var url = "https://api.chucknorris.io/jokes/random";
+      var url = "http://www.recipepuppy.com/api";
       xmlhttp.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
           var json = JSON.parse(this.responseText);
