@@ -1,8 +1,3 @@
-const putJokeOnPage = (jokeJson) => {
-	$("#joke p").html(jokeJson.joke)
-}
-
-
 function randomFact() {
       // We call the Web Service via AJAX
       var xmlhttp = new XMLHttpRequest();
